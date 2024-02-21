@@ -2,44 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Emergency Resources.kml</name>
-	<Style id="geocode">
-		<IconStyle>
-			<color>ff00aaaa</color>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="geocode1">
-		<IconStyle>
-			<color>ff00aaaa</color>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
-	<StyleMap id="geocode4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#geocode</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#geocode1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="listing_A">
 		<IconStyle>
 			<Icon>
@@ -508,7 +470,7 @@
 			</Document>
 		</Folder>
 		<Document>
-			<name>UTAH, UT</name>
+			<name>Utah County, UT</name>
 			<LookAt>
 				<longitude>-111.634535</longitude>
 				<latitude>40.397342</latitude>
@@ -2308,108 +2270,6 @@
 				</ExtendedData>
 				<Point>
 					<coordinates>-111.6931768,40.2975353,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>Springville Sector HQ</name>
-			<description><![CDATA[<a href="https://www.springville.org/fire-rescue/wp-content/uploads/sites/7/2022/11/Emergency-Preparedness-Manual-1.pdf">Springville Emergency Preparedness Manual</a>]]></description>
-			<Placemark id="1.2.1">
-				<name>Hobble Creek Stake Center</name>
-				<address>495 S Canyon Dr, Springville, UT 84663</address>
-				<snippet>495 S Canyon Dr, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.1596992&amp;lng=-111.5853044&amp;fid=0x874dbdef00776553:0x41785909870abb13&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.5853044,40.1596992,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Hobble Creek West Stake Center</name>
-				<address>555 S 600 E, Springville, UT 84663</address>
-				<snippet>555 S 600 E, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.1591494&amp;lng=-111.59866249999999&amp;fid=0x874dbd92722d18d7:0xda417656346532ff&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.5986625,40.1591494,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Kolob Stake Center</name>
-				<address>1230 S 500 E, Springville, UT 84663</address>
-				<snippet>1230 S 500 E, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.1498692&amp;lng=-111.6021387&amp;fid=0x874dbdbd8b685a2d:0x7d26f74be69f7a91&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.6021387,40.1498692,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Spring Creek South Stake Center</name>
-				<address>350 N 400 E, Springville, UT 84663</address>
-				<snippet>350 N 400 E, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.171427699999995&amp;lng=-111.6026201&amp;fid=0x874d9626e4f51637:0x2601751089b2099&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.6026201,40.1714277,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Spring Creek Stake Center</name>
-				<address>760 N 400 E, Springville, UT 84663</address>
-				<snippet>760 N 400 E, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.1772656&amp;lng=-111.6024278&amp;fid=0x874d9624c21b85db:0xfd1b8b89f4d9fce1&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.6024278,40.1772656,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Springville Stake Center</name>
-				<address>698 Kolob Cir, Springville, UT 84663</address>
-				<snippet>698 Kolob Cir, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.1630584&amp;lng=-111.59917290000001&amp;fid=0x874dbd8c3ad1d7ff:0xbd023f0b01ea1461&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.5991729,40.1630584,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="1.2.1">
-				<name>Springville West Stake</name>
-				<address>996 W Center St, Springville, UT 84663</address>
-				<snippet>996 W Center St, Springville, UT 84663</snippet>
-				<styleUrl>#geocode4</styleUrl>
-				<ExtendedData>
-					<Data name="placepageUri">
-						<value>https://www.google.com/earth/rpc/entity?lat=40.167369699999995&amp;lng=-111.6289108&amp;fid=0x874d97d7409fb401:0x3ebfd0b332aa5a8e&amp;hl=en&amp;gl=us&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-					</Data>
-				</ExtendedData>
-				<Point>
-					<coordinates>-111.6289108,40.16736969999999,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
