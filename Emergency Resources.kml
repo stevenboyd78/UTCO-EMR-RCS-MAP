@@ -2,6 +2,178 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Emergency Resources.kml</name>
+	<StyleMap id="0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#013</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#003</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="05">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="00">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="000">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="001">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="002">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="003">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="01">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="010">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="011">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="012">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="013">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="listing_A">
 		<IconStyle>
 			<Icon>
@@ -2530,7 +2702,6 @@
 			<description><![CDATA[More information available at <a href="https://www.ucares.org/">https://www.ucares.org/</a>]]></description>
 			<Document>
 				<name>UCARES Agency EOC Locations</name>
-				<open>1</open>
 				<description><![CDATA[<a href="https://docs.google.com/spreadsheets/d/1G2vCImS2IeGskwvfDSsT6k1eVlxt6-9aAz8bmy-IhFk">UCARES Agency EOC's</a>]]></description>
 				<Style>
 					<ListStyle>
@@ -2843,17 +3014,17 @@
 				<name>UCARES Repeater List</name>
 				<open>1</open>
 				<description><![CDATA[<a href="https://docs.google.com/spreadsheets/d/1QdbMZh9Z1pyrBs7rm5rXIZgPgYGuT6IUppYYsut5seI">UCARES Repeater List</a>]]></description>
-				<StyleMap id="0">
+				<StyleMap id="06">
 					<Pair>
 						<key>normal</key>
-						<styleUrl>#01</styleUrl>
+						<styleUrl>#014</styleUrl>
 					</Pair>
 					<Pair>
 						<key>highlight</key>
-						<styleUrl>#00</styleUrl>
+						<styleUrl>#004</styleUrl>
 					</Pair>
 				</StyleMap>
-				<Style id="00">
+				<Style id="004">
 					<IconStyle>
 						<color>ff00ffff</color>
 						<Icon>
@@ -2864,7 +3035,7 @@
 						<scale>0</scale>
 					</LabelStyle>
 				</Style>
-				<Style id="01">
+				<Style id="014">
 					<IconStyle>
 						<color>ff00ffff</color>
 						<Icon>
@@ -2890,7 +3061,7 @@
 <td>131.80 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -2922,7 +3093,7 @@
 <td>131.80 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -2944,7 +3115,7 @@
 <td>100.0 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -2971,7 +3142,7 @@
 <td>103.50 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -2993,7 +3164,7 @@
 <td>123.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3015,7 +3186,7 @@
 <td>100.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3042,7 +3213,7 @@
 <td>100.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3064,7 +3235,7 @@
 <td>100.0hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#0</styleUrl>
+					<styleUrl>#06</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3116,6 +3287,174 @@
 				</LineString>
 			</Placemark>
 		</Document>
+		<Folder>
+			<name>UVARC Repeaters</name>
+			<description><![CDATA[More information available at <a href="https://uvarc.club/">https://uvarc.club/</a>
+
+Repeater locations are approximate.]]></description>
+			<Placemark>
+				<name>Provo, Sundance, Utah, 145.25</name>
+				<address>Lake Mountain FS</address>
+				<description>Downlink:	145.25000
+Uplink:	144.65000
+Offset:	-0.600 MHz
+Uplink Tone:	100.0
+County:	Utah
+Grid:	DN40EI
+Call:	K7UVA
+Use:	OPEN
+Op Status:	ON-AIR On-Air
+Coverage:	Utah County from Alpine to Payson and Heber
+Height (ASL):	8,215 feet
+ERP:	100 watts
+Sponsor:	Utah Valley Amateur Radio Club
+FM:	Yes; analog capable.
+Analog Bandwidth:	
+Links:	
+Web links:	https://uvarc.club/
+Web links:	Sponsor: UVARC.
+Coordination:	UVHFS
+</description>
+				<styleUrl>#04</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6411298550279,40.538682619338,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Provo, Sundance, Utah, 145.25</name>
+				<address>Lake Mountain FS</address>
+				<description>Downlink:	145.25000
+Uplink:	144.65000
+Offset:	-0.600 MHz
+Uplink Tone:	100.0
+County:	Utah
+Grid:	DN40EI
+Call:	K7UVA
+Use:	OPEN
+Op Status:	ON-AIR On-Air
+Coverage:	Utah County from Alpine to Payson and Heber
+Height (ASL):	8,215 feet
+ERP:	100 watts
+Sponsor:	Utah Valley Amateur Radio Club
+FM:	Yes; analog capable.
+Analog Bandwidth:	
+Links:	
+Web links:	https://uvarc.club/
+Web links:	Sponsor: UVARC.
+Coordination:	UVHFS
+</description>
+				<styleUrl>#03</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.5945410833633,40.36885668970221,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lehi, North Lake Mountain, Utah, 224.56</name>
+				<address>Lake Mountain FS</address>
+				<description>Downlink:	224.56000
+Uplink:	222.96000
+Offset:	-1.600 MHz
+Uplink Tone:	100.0
+County:	Utah
+Grid:	DN40AG
+Call:	K7UVA
+Use:	OPEN
+Op Status:	ON-AIR On-Air
+Coverage:	Utah County, Salt Lake County, Juab County
+Height (ASL):	7,600 feet
+ERP:	25 watts
+Sponsor:	UVARC (Utah Valley Amateur Radio Club)
+Features:	10,550&apos;. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area
+FM:	Yes; analog capable.
+Analog Bandwidth:	25.0 kHz
+Links:	Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT.
+Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT.
+EchoLink:	762028
+Node Offline
+Nets:	Ladies Net: Tue 19:00&gt;
+Youth Net: Thu 18:30
+New Ham Net: Thu 19:00
+Family History Net: Sat 20:0
+Web links:	Sponsor: UVARC.
+Coordination:	UVHFS
+</description>
+				<styleUrl>#0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.937435,40.283169,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orem, Lake Mountain, Utah, 448.20</name>
+				<address>Lake Mountain UTCO</address>
+				<description>Downlink:	448.20000
+Uplink:	443.20000a
+Offset:	-5.0 MHzb
+Uplink Tone:	100.0
+County:	Utah
+Grid:	DN40AG
+Call:	K7UVA
+Use:	OPEN
+Op Status:	ON-AIR On-Air
+Coverage:	Utah County, Salt Lake County, Juab County
+Sponsor:	UVARC (Utah Valley Amateur Radio Club)
+Affiliate:	UVARC (Utah Valley Amateur Radio Club)
+Features:	10,550&apos;. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area
+FM:	Yes; analog capable.
+Analog Bandwidth:	
+Links:	Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT.
+Full-time to 224.56000 (K7UVA) at Lehi, North Lake Mountain, UT.
+EchoLink:	762028
+Node Offline
+Nets:	Ladies&apos; Net Tue 1900, Youth Net Thu 1830, New Ham Net Thu 1900, Family History Net Sat 20:00
+Web links:	http://uvarc.club
+Coordination:	UVHFS
+</description>
+				<styleUrl>#02</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.92814,40.261488,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orem, Lake Mountain, Utah, 146.78</name>
+				<address>Lake Mountain UTCO</address>
+				<description>Downlink:	146.78000
+Uplink:	146.18000
+Offset:	-0.600 MHz
+Uplink Tone:	100.0
+County:	Utah
+Grid:	DN40AG
+Call:	K7UVA
+Use:	OPEN
+Op Status:	ON-AIR On-Air
+Coverage:	Utah County, Salt Lake County
+Sponsor:	UVARC (Utah Valley Amateur Radio Club)
+Affiliate:	UVARC (Utah Valley Amateur Radio Club)
+FM:	Yes; analog capable.
+Analog Bandwidth:	
+Links:	Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT.
+Full-time to 224.56000 (K7UVA) at Lehi, North Lake Mountain, UT.
+EchoLink:	762028
+Node Offline
+Nets:	Ladies Net: Tue 19:00 Youth Net: Thu 18:30 New Ham Net: Thu 19:00 Family History Net: Sat 20:00
+Web links:	http://uvarc.club/
+Coordination:	UVHFS
+</description>
+				<styleUrl>#05</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.92814,40.261488,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 		<Folder>
 			<name>Winlink</name>
 			<description><![CDATA[More information available at <a href="https://winlink.org/">https://winlink.org/</a>]]></description>
