@@ -12,46 +12,6 @@
 			<styleUrl>#000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="03">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="04">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#013</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#003</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="05">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#012</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#002</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="00">
 		<IconStyle>
 			<color>ffffaaff</color>
@@ -103,6 +63,30 @@
 	<Style id="003">
 		<IconStyle>
 			<color>ffffaaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="004">
+		<IconStyle>
+			<color>ffffff00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="0040">
+		<IconStyle>
+			<color>ffffff00</color>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
 			</Icon>
@@ -174,6 +158,90 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="014">
+		<IconStyle>
+			<color>ffffff00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="0140">
+		<IconStyle>
+			<color>ffffff00</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#013</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#003</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="05">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="06">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="060">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#014</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#004</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="listing_A">
 		<IconStyle>
 			<Icon>
@@ -1872,6 +1940,316 @@
 				</Placemark>
 			</Document>
 		</Folder>
+		<Document>
+			<name>EOC Locations</name>
+			<description><![CDATA[<a href="https://docs.google.com/spreadsheets/d/1G2vCImS2IeGskwvfDSsT6k1eVlxt6-9aAz8bmy-IhFk">UCARES Agency EOC's</a>]]></description>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Style id="geocode5">
+				<IconStyle>
+					<color>ff0055ff</color>
+					<scale>1.16667</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>000000ff</color>
+				</LineStyle>
+			</Style>
+			<StyleMap id="geocode6">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#geocode7</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#geocode5</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="geocode7">
+				<IconStyle>
+					<color>ff0055ff</color>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>000000ff</color>
+				</LineStyle>
+			</Style>
+			<Placemark>
+				<name>American Fork City, Fire Rescue Building</name>
+				<address>95 N 100 E American Fork Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7963122,40.3786279,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>American Fork Hospital</name>
+				<address>170 N 1100 E American Fork Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7671487,40.380148,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brigham Young University</name>
+				<address>3278 Wilkinson Student Center Provo Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6472221,40.2485515,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eagle Mountain Alt. EOC</name>
+				<address>2565 Pony Express Blv Eagle Mountain Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-112.0164003,40.2848896,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eagle Mountain City Hall</name>
+				<address>1650 E Stagecoach Run Eagle Mountain Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-112.012892,40.3066373,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lehi City</name>
+				<address>128 North 100 East Lehi Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.8472635,40.3894028,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lindon City</name>
+				<address>100 North State, Lindon Lindon Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7177286,40.339955,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mapleton City Fire Station</name>
+				<address>305 N Main St Mapleton Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.5792957,40.1331133,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mountain View Hospital</name>
+				<address>1000 E 100 N Payson Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7142352,40.0440325,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orem City</name>
+				<address>95 E Center St Orem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6933678,40.2977458,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orem Community Hospital</name>
+				<address>331 N 400 W Orem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7055487,40.3033995,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pleasant Grove City</name>
+				<address>87 E 100 S Pleasant Grove Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.739346,40.3627855,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Provo City Energy Building</name>
+				<address>251 West 800 North Provo Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.662812,40.243865,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Provo City Hall</name>
+				<address>445 W Center Street Provo Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6669804,40.2333888,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Red Cross (Utah Cnty + south)</name>
+				<address>1190 Spring Creek Pl Springville Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6256854,40.1837405,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Salem City</name>
+				<address>30 W 100 S Salem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6737835,40.0532069,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spanish Fork City Fire Station</name>
+				<address>370 North Main Spanish Fork Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6543113,40.1143978,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spanish Fork City Police Station</name>
+				<address>789 W Center Spanish Fork Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6680311,40.1088017,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Springville Fire Station</name>
+				<address>75 W Center Springville Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6119942,40.1663612,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Timpanogos Regional Hospital</name>
+				<address>750 W 800 N, Orem Orem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7135983,40.3134801,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Utah County EOC</name>
+				<address>3075 N Main St Spanish Fork Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6595514,40.148782,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Utah State Hospital</name>
+				<address>1300 E Center St Provo Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.632834,40.2337196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Utah Transit Authority</name>
+				<address>1110 S Geneva Rd Orem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.7303875,40.2769293,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Utah Valley Hospital</name>
+				<address>1034 N 500 W Provo Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6658617,40.2481222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Utah Valley University</name>
+				<address>800 W University Pkwy Orem Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.714343,40.2783213,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Woodland Hills Fire Department</name>
+				<address>690 S Woodland Hills Drive Woodland Hills Utah</address>
+				<styleUrl>#geocode6</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-111.6481396,40.0116612,0</coordinates>
+				</Point>
+			</Placemark>
+		</Document>
 		<Folder>
 			<name>Fire Departments</name>
 			<Placemark id="1.8.1">
@@ -2213,6 +2591,123 @@
 				</ExtendedData>
 				<Point>
 					<coordinates>-111.6481812,40.011564,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>GMRS Repeaters</name>
+			<Placemark>
+				<name>Springville 675</name>
+				<open>1</open>
+				<description><![CDATA[<a href="https://mygmrs.com/repeater/5169">https://mygmrs.com/repeater/5169</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Name</td>
+    <td>Springville 675</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Springville, UT</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>Open</td>
+  </tr>
+  <tr>
+    <td>Frequency</td>
+    <td>462.675 MHz</td>
+  </tr>
+  <tr>
+    <td>Input Tone</td>
+    <td>167.9 Hz</td>
+  </tr>
+  <tr>
+    <td>Output Tone</td>
+    <td>167.9 Hz</td>
+  </tr>
+</tbody>
+</table>]]></description>
+				<LookAt>
+					<longitude>-111.6066969347117</longitude>
+					<latitude>40.16055080682008</latitude>
+					<altitude>0</altitude>
+					<heading>-1.131807697979904</heading>
+					<tilt>15.43973224860299</tilt>
+					<range>1990.283957206046</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#060</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.6046730184731,40.15787254954481,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ECSTEAM AND UCARES 650</name>
+				<description><![CDATA[<a href="https://mygmrs.com/repeater/5169">https://mygmrs.com/repeater/5169</a>
+
+<p>This is a MEMBERS ONLY repeater for use by members of the Utah County Emergency Communications Support Team (UC ECSTeam), Utah County Amateur Radio Emergency Service (UCARES Level 2) and their families ONLY.</P
+
+<p>For more information see <a href="http://ucares.org">http://ucares.org</a></p>
+
+Requirements for access:
+<ol>
+<li>Hold a valid GMRS license</li>
+<li>Join UCARES and obtain level 2 certification or higher</li>
+<li>Be a family member of a UCARES level 2 holder</li>
+<li>Request access by emailing kb7m@ecsteam.org with the following:</li>
+<ol>
+<li>ECSTeam or UCARES member name, GMRS licensee name (if different), contact phone number, and email address</li>
+<li>GMRS license callsign and expiration date</li>
+<li>A list of equipment to be used</li>
+<li>Number of regular users</li>
+</ol>
+</ol>
+
+<p>Request for access to this repeater from individuals who do not meet these requirements will be denied.</p>
+
+<table border=1>
+<tbody>
+  <tr>
+    <td>Name</td>
+    <td>ECSTEAM AND UCARES 650</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Orem, UT</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>Members Only (Free)</td>
+  </tr>
+  <tr>
+    <td>Frequency</td>
+    <td>462.650 MHz</td>
+  </tr>
+  <tr>
+    <td>Input Tone</td>
+    <td>Unlisted</td>
+  </tr>
+  <tr>
+    <td>Output Tone</td>
+    <td>Unlisted</td>
+  </tr>
+</tbody>
+</table>]]></description>
+				<LookAt>
+					<longitude>-111.6502970507617</longitude>
+					<latitude>40.31046988164091</latitude>
+					<altitude>0</altitude>
+					<heading>-2.158357818139214</heading>
+					<tilt>7.205572877557165</tilt>
+					<range>1074.209222520181</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#06</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.6498607910229,40.31239096680095,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -2701,351 +3196,72 @@
 			<name>UCARES</name>
 			<description><![CDATA[More information available at <a href="https://www.ucares.org/">https://www.ucares.org/</a>]]></description>
 			<Document>
-				<name>UCARES Agency EOC Locations</name>
-				<description><![CDATA[<a href="https://docs.google.com/spreadsheets/d/1G2vCImS2IeGskwvfDSsT6k1eVlxt6-9aAz8bmy-IhFk">UCARES Agency EOC's</a>]]></description>
-				<Style>
-					<ListStyle>
-						<listItemType>check</listItemType>
-						<bgColor>00ffffff</bgColor>
-						<maxSnippetLines>2</maxSnippetLines>
-					</ListStyle>
-				</Style>
-				<Style id="geocode5">
-					<IconStyle>
-						<color>ff0055ff</color>
-						<scale>1.16667</scale>
-						<Icon>
-							<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-						</Icon>
-					</IconStyle>
-					<LabelStyle>
-						<scale>0</scale>
-					</LabelStyle>
-					<LineStyle>
-						<color>000000ff</color>
-					</LineStyle>
-				</Style>
-				<StyleMap id="geocode6">
-					<Pair>
-						<key>normal</key>
-						<styleUrl>#geocode7</styleUrl>
-					</Pair>
-					<Pair>
-						<key>highlight</key>
-						<styleUrl>#geocode5</styleUrl>
-					</Pair>
-				</StyleMap>
-				<Style id="geocode7">
-					<IconStyle>
-						<color>ff0055ff</color>
-						<Icon>
-							<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-						</Icon>
-					</IconStyle>
-					<LabelStyle>
-						<scale>0</scale>
-					</LabelStyle>
-					<LineStyle>
-						<color>000000ff</color>
-					</LineStyle>
-				</Style>
-				<Placemark>
-					<name>American Fork City, Fire Rescue Building</name>
-					<address>95 N 100 E American Fork Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7963122,40.3786279,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>American Fork Hospital</name>
-					<address>170 N 1100 E American Fork Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7671487,40.380148,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Brigham Young University</name>
-					<address>3278 Wilkinson Student Center Provo Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6472221,40.2485515,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eagle Mountain Alt. EOC</name>
-					<address>2565 Pony Express Blv Eagle Mountain Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-112.0164003,40.2848896,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eagle Mountain City Hall</name>
-					<address>1650 E Stagecoach Run Eagle Mountain Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-112.012892,40.3066373,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Lehi City</name>
-					<address>128 North 100 East Lehi Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.8472635,40.3894028,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Lindon City</name>
-					<address>100 North State, Lindon Lindon Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7177286,40.339955,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Mapleton City Fire Station</name>
-					<address>305 N Main St Mapleton Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.5792957,40.1331133,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Mountain View Hospital</name>
-					<address>1000 E 100 N Payson Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7142352,40.0440325,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Orem City</name>
-					<address>95 E Center St Orem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6933678,40.2977458,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Orem Community Hospital</name>
-					<address>331 N 400 W Orem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7055487,40.3033995,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Pleasant Grove City</name>
-					<address>87 E 100 S Pleasant Grove Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.739346,40.3627855,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Provo City Energy Building</name>
-					<address>251 West 800 North Provo Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.662812,40.243865,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Provo City Hall</name>
-					<address>445 W Center Street Provo Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6669804,40.2333888,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Red Cross (Utah Cnty + south)</name>
-					<address>1190 Spring Creek Pl Springville Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6256854,40.1837405,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Salem City</name>
-					<address>30 W 100 S Salem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6737835,40.0532069,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Spanish Fork City Fire Station</name>
-					<address>370 North Main Spanish Fork Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6543113,40.1143978,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Spanish Fork City Police Station</name>
-					<address>789 W Center Spanish Fork Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6680311,40.1088017,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Springville Fire Station</name>
-					<address>75 W Center Springville Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6119942,40.1663612,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Timpanogos Regional Hospital</name>
-					<address>750 W 800 N, Orem Orem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7135983,40.3134801,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Utah County EOC</name>
-					<address>3075 N Main St Spanish Fork Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6595514,40.148782,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Utah State Hospital</name>
-					<address>1300 E Center St Provo Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.632834,40.2337196,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Utah Transit Authority</name>
-					<address>1110 S Geneva Rd Orem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.7303875,40.2769293,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Utah Valley Hospital</name>
-					<address>1034 N 500 W Provo Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6658617,40.2481222,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Utah Valley University</name>
-					<address>800 W University Pkwy Orem Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.714343,40.2783213,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Woodland Hills Fire Department</name>
-					<address>690 S Woodland Hills Drive Woodland Hills Utah</address>
-					<styleUrl>#geocode6</styleUrl>
-					<ExtendedData>
-					</ExtendedData>
-					<Point>
-						<coordinates>-111.6481396,40.0116612,0</coordinates>
-					</Point>
-				</Placemark>
-			</Document>
-			<Document>
 				<name>UCARES Repeater List</name>
-				<open>1</open>
 				<description><![CDATA[<a href="https://docs.google.com/spreadsheets/d/1QdbMZh9Z1pyrBs7rm5rXIZgPgYGuT6IUppYYsut5seI">UCARES Repeater List</a>]]></description>
-				<StyleMap id="06">
+				<Style id="0041">
+					<IconStyle>
+						<color>ff00ffff</color>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+				</Style>
+				<Style id="0042">
+					<IconStyle>
+						<color>ff00ffff</color>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+				</Style>
+				<Style id="0141">
+					<IconStyle>
+						<color>ff00ffff</color>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+				</Style>
+				<Style id="0142">
+					<IconStyle>
+						<color>ff00ffff</color>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+				</Style>
+				<StyleMap id="061">
 					<Pair>
 						<key>normal</key>
-						<styleUrl>#014</styleUrl>
+						<styleUrl>#0142</styleUrl>
 					</Pair>
 					<Pair>
 						<key>highlight</key>
-						<styleUrl>#004</styleUrl>
+						<styleUrl>#0042</styleUrl>
 					</Pair>
 				</StyleMap>
-				<Style id="004">
-					<IconStyle>
-						<color>ff00ffff</color>
-						<Icon>
-							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-						</Icon>
-					</IconStyle>
-					<LabelStyle>
-						<scale>0</scale>
-					</LabelStyle>
-				</Style>
-				<Style id="014">
-					<IconStyle>
-						<color>ff00ffff</color>
-						<Icon>
-							<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
-						</Icon>
-					</IconStyle>
-					<LabelStyle>
-						<scale>0</scale>
-					</LabelStyle>
-				</Style>
+				<StyleMap id="062">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#0141</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#0041</styleUrl>
+					</Pair>
+				</StyleMap>
 				<Placemark>
 					<name>Lake Mountain FS</name>
 					<address>Lake Mountain FS</address>
@@ -3061,11 +3277,11 @@
 <td>131.80 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#061</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
-						<coordinates>-111.937435,40.283169,0</coordinates>
+						<coordinates>-111.9371110921819,40.2824130222622,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3093,7 +3309,7 @@
 <td>131.80 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3115,7 +3331,7 @@
 <td>100.0 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3142,7 +3358,7 @@
 <td>103.50 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3164,7 +3380,7 @@
 <td>123.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3186,7 +3402,7 @@
 <td>100.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3213,7 +3429,7 @@
 <td>100.00 hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3235,7 +3451,7 @@
 <td>100.0hz</td>
 </tr>
 </table>]]></description>
-					<styleUrl>#06</styleUrl>
+					<styleUrl>#062</styleUrl>
 					<ExtendedData>
 					</ExtendedData>
 					<Point>
@@ -3293,58 +3509,172 @@
 
 Repeater locations are approximate.]]></description>
 			<Placemark>
-				<name>Provo, Sundance, Utah, 145.25</name>
+				<name>American Fork, Utah, 448.225</name>
 				<address>Lake Mountain FS</address>
-				<description>Downlink:	145.25000
-Uplink:	144.65000
-Offset:	-0.600 MHz
-Uplink Tone:	100.0
-County:	Utah
-Grid:	DN40EI
-Call:	K7UVA
-Use:	OPEN
-Op Status:	ON-AIR On-Air
-Coverage:	Utah County from Alpine to Payson and Heber
-Height (ASL):	8,215 feet
-ERP:	100 watts
-Sponsor:	Utah Valley Amateur Radio Club
-FM:	Yes; analog capable.
-Analog Bandwidth:	
-Links:	
-Web links:	https://uvarc.club/
-Web links:	Sponsor: UVARC.
-Coordination:	UVHFS
-</description>
+				<description><![CDATA[<a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=17113">https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=17113</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Downlink:</td>
+    <td>448.22500</td>
+  </tr>
+  <tr>
+    <td>Uplink:</td>
+    <td>443.22500</td>
+  </tr>
+  <tr>
+    <td>Offset:</td>
+    <td>-5.000 MHz</td>
+  </tr>
+  <tr>
+    <td>Uplink Tone:</td>
+    <td>100.0</td>
+  </tr>
+  <tr>
+    <td>County:</td>
+    <td>Utah</td>
+  </tr>
+  <tr>
+    <td>Grid:</td>
+    <td>DN40EM</td>
+  </tr>
+  <tr>
+    <td>Call:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/callook.php?call=K7UVA">K7UVA</a></td>
+  </tr>
+  <tr>
+    <td>Use:</td>
+    <td>OPEN</td>
+  </tr>
+  <tr>
+    <td>Op Status:</td>
+    <td><img src="https://www.repeaterbook.com/images/ham/onair.png" alt="ON-AIR" width="16" height="16"># On-Air</td>
+  </tr>
+  <tr>
+    <td>Height (ASL):</td>
+    <td>9,725 feet</td>
+  </tr>
+  <tr>
+    <td>ERP:</td>
+    <td>100 watts</td>
+  </tr>
+  <tr>
+    <td>Sponsor:</td>
+    <td>Utah Valley Amateur Radio Club</td>
+  </tr>
+  <tr>
+    <td>Features:</td>
+    <td>E-power equipped.</td>
+  </tr>
+  <tr>
+    <td>FM:</td>
+    <td>Yes; analog capable.</td>
+  </tr>
+  <tr>
+    <td>Analog Bandwidth:</td>
+    <td>25.0 kHz</td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td><a href="https://uvarc.club/repeaters/">https://uvarc.club/repeaters/</a></td>
+  </tr>
+  <tr>
+    <td>Coordination:</td>
+    <td><a href="http://utahvhfs.org/">UVHFS</a></td>
+  </tr>
+</tbody>
+</table>]]></description>
 				<styleUrl>#04</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<Point>
-					<coordinates>-111.6411298550279,40.538682619338,0</coordinates>
+					<coordinates>-111.64113,40.538683,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Provo, Sundance, Utah, 145.25</name>
 				<address>Lake Mountain FS</address>
-				<description>Downlink:	145.25000
-Uplink:	144.65000
-Offset:	-0.600 MHz
-Uplink Tone:	100.0
-County:	Utah
-Grid:	DN40EI
-Call:	K7UVA
-Use:	OPEN
-Op Status:	ON-AIR On-Air
-Coverage:	Utah County from Alpine to Payson and Heber
-Height (ASL):	8,215 feet
-ERP:	100 watts
-Sponsor:	Utah Valley Amateur Radio Club
-FM:	Yes; analog capable.
-Analog Bandwidth:	
-Links:	
-Web links:	https://uvarc.club/
-Web links:	Sponsor: UVARC.
-Coordination:	UVHFS
-</description>
+				<description><![CDATA[<a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=122">https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=122</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Downlink:</td>
+    <td>145.25000</td>
+  </tr>
+  <tr>
+    <td>Uplink:</td>
+    <td>144.65000</td>
+  </tr>
+  <tr>
+    <td>Offset:</td>
+    <td>-0.600 MHz</td>
+  </tr>
+  <tr>
+    <td>Uplink Tone:</td>
+    <td>100.0</td>
+  </tr>
+  <tr>
+    <td>County:</td>
+    <td>Utah</td>
+  </tr>
+  <tr>
+    <td>Grid:</td>
+    <td>DN40EI</td>
+  </tr>
+  <tr>
+    <td>Call:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/callook.php?call=K7UVA">K7UVA</a></td>
+  </tr>
+  <tr>
+    <td>Use:</td>
+    <td>OPEN</td>
+  </tr>
+  <tr>
+    <td>Op Status:</td>
+    <td><img src="https://www.repeaterbook.com/images/ham/onair.png" alt="ON-AIR" width="16" height="16"># On-Air</td>
+  </tr>
+  <tr>
+    <td>Coverage:</td>
+    <td>Utah County from Alpine to Payson and Heber</td>
+  </tr>
+  <tr>
+    <td>Height (ASL):</td>
+    <td>8,215 feet</td>
+  </tr>
+  <tr>
+    <td>ERP:</td>
+    <td>100 watts</td>
+  </tr>
+  <tr>
+    <td>Sponsor:</td>
+    <td>Utah Valley Amateur Radio Club</td>
+  </tr>
+  <tr>
+    <td>FM:</td>
+    <td>Yes; analog capable.</td>
+  </tr>
+  <tr>
+    <td>Analog Bandwidth:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Links:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td><a href="https://uvarc.club/">https://uvarc.club/</a></td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td>Sponsor: <a href="https://uvarc.club/">UVARC</a>.<br></td>
+  </tr>
+  <tr>
+    <td>Coordination:</td>
+    <td><a href="http://utahvhfs.org/">UVHFS</a></td>
+  </tr>
+</tbody>
+</table>]]></description>
 				<styleUrl>#03</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
@@ -3353,105 +3683,304 @@ Coordination:	UVHFS
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Lehi, North Lake Mountain, Utah, 224.56</name>
+				<name>(OFFLINE) Lehi, North Lake Mountain, Utah, 224.56</name>
 				<address>Lake Mountain FS</address>
-				<description>Downlink:	224.56000
-Uplink:	222.96000
-Offset:	-1.600 MHz
-Uplink Tone:	100.0
-County:	Utah
-Grid:	DN40AG
-Call:	K7UVA
-Use:	OPEN
-Op Status:	ON-AIR On-Air
-Coverage:	Utah County, Salt Lake County, Juab County
-Height (ASL):	7,600 feet
-ERP:	25 watts
-Sponsor:	UVARC (Utah Valley Amateur Radio Club)
-Features:	10,550&apos;. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area
-FM:	Yes; analog capable.
-Analog Bandwidth:	25.0 kHz
-Links:	Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT.
-Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT.
-EchoLink:	762028
-Node Offline
-Nets:	Ladies Net: Tue 19:00&gt;
-Youth Net: Thu 18:30
-New Ham Net: Thu 19:00
-Family History Net: Sat 20:0
-Web links:	Sponsor: UVARC.
-Coordination:	UVHFS
-</description>
+				<description><![CDATA[<a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=16449">https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=16449</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Downlink:</td>
+    <td>224.56000</td>
+  </tr>
+  <tr>
+    <td>Uplink:</td>
+    <td>222.96000</td>
+  </tr>
+  <tr>
+    <td>Offset:</td>
+    <td>-1.600 MHz</td>
+  </tr>
+  <tr>
+    <td>Uplink Tone:</td>
+    <td>100.0</td>
+  </tr>
+  <tr>
+    <td>County:</td>
+    <td>Utah</td>
+  </tr>
+  <tr>
+    <td>Grid:</td>
+    <td>DN40AG</td>
+  </tr>
+  <tr>
+    <td>Call:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/callook.php?call=K7UVA">K7UVA</a></td>
+  </tr>
+  <tr>
+    <td>Use:</td>
+    <td>OPEN</td>
+  </tr>
+  <tr>
+    <td>Op Status:</td>
+    <td><img src="https://www.repeaterbook.com/images/ham/onair.png" alt="ON-AIR" width="16" height="16"># On-Air</td>
+  </tr>
+  <tr>
+    <td>Coverage:</td>
+    <td>Utah County, Salt Lake County, Juab County</td>
+  </tr>
+  <tr>
+    <td>Height (ASL):</td>
+    <td>7,600 feet</td>
+  </tr>
+  <tr>
+    <td>ERP:</td>
+    <td>25 watts</td>
+  </tr>
+  <tr>
+    <td>Sponsor:</td>
+    <td>UVARC (Utah Valley Amateur Radio Club)</td>
+  </tr>
+  <tr>
+    <td>Features:</td>
+    <td>10,550'. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area<br></td>
+  </tr>
+  <tr>
+    <td>FM:</td>
+    <td>Yes; analog capable.</td>
+  </tr>
+  <tr>
+    <td>Analog Bandwidth:</td>
+    <td>25.0 kHz</td>
+  </tr>
+  <tr>
+    <td>Links:</td>
+    <td>Full-time to <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=139">448.20000 (K7UVA) at Orem, Lake Mountain, UT</a>.<br>Full-time to <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=15101">146.78000 (K7UVA) at Orem, Lake Mountain, UT</a>.<br></td>
+  </tr>
+  <tr>
+    <td>EchoLink:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=762028&type=search">762028</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node Offline</td>
+  </tr>
+  <tr>
+    <td>Nets:</td>
+    <td>Ladies Net: Tue 19:00<br>Youth Net: Thu 18:30<br>New Ham Net: Thu 19:00<br>Family History Net: Sat 20:00</td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td>Sponsor: <a href="https://uvarc.club/">UVARC</a>.<br></td>
+  </tr>
+  <tr>
+    <td>Coordination:</td>
+    <td><a href="http://utahvhfs.org/">UVHFS</a></td>
+  </tr>
+</tbody>
+</table>]]></description>
 				<styleUrl>#0</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<Point>
-					<coordinates>-111.937435,40.283169,0</coordinates>
+					<coordinates>-111.9371789255619,40.28296816065711,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Orem, Lake Mountain, Utah, 448.20</name>
 				<address>Lake Mountain UTCO</address>
-				<description>Downlink:	448.20000
-Uplink:	443.20000a
-Offset:	-5.0 MHzb
-Uplink Tone:	100.0
-County:	Utah
-Grid:	DN40AG
-Call:	K7UVA
-Use:	OPEN
-Op Status:	ON-AIR On-Air
-Coverage:	Utah County, Salt Lake County, Juab County
-Sponsor:	UVARC (Utah Valley Amateur Radio Club)
-Affiliate:	UVARC (Utah Valley Amateur Radio Club)
-Features:	10,550&apos;. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area
-FM:	Yes; analog capable.
-Analog Bandwidth:	
-Links:	Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT.
-Full-time to 224.56000 (K7UVA) at Lehi, North Lake Mountain, UT.
-EchoLink:	762028
-Node Offline
-Nets:	Ladies&apos; Net Tue 1900, Youth Net Thu 1830, New Ham Net Thu 1900, Family History Net Sat 20:00
-Web links:	http://uvarc.club
-Coordination:	UVHFS
-</description>
+				<description><![CDATA[<a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=139">https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=139</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Downlink:</td>
+    <td>448.20000</td>
+  </tr>
+  <tr>
+    <td>Uplink:</td>
+    <td>443.20000a</td>
+  </tr>
+  <tr>
+    <td>Offset:</td>
+    <td>-5.0 MHzb</td>
+  </tr>
+  <tr>
+    <td>Uplink Tone:</td>
+    <td>100.0</td>
+  </tr>
+  <tr>
+    <td>County:</td>
+    <td>Utah</td>
+  </tr>
+  <tr>
+    <td>Grid:</td>
+    <td>DN40AG</td>
+  </tr>
+  <tr>
+    <td>Call:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/callook.php?call=K7UVA">K7UVA</a></td>
+  </tr>
+  <tr>
+    <td>Use:</td>
+    <td>OPEN</td>
+  </tr>
+  <tr>
+    <td>Op Status:</td>
+    <td><img src="https://www.repeaterbook.com/images/ham/onair.png" alt="ON-AIR" width="16" height="16"># On-Air</td>
+  </tr>
+  <tr>
+    <td>Coverage:</td>
+    <td>Utah County, Salt Lake County, Juab County</td>
+  </tr>
+  <tr>
+    <td>Sponsor:</td>
+    <td>UVARC (Utah Valley Amateur Radio Club)</td>
+  </tr>
+  <tr>
+    <td>Affiliate:</td>
+    <td>UVARC (Utah Valley Amateur Radio Club)</td>
+  </tr>
+  <tr>
+    <td>Features:</td>
+    <td>10,550'. Wide area, lots of friendly hams listening, linked to other similar repeaters in the area<br></td>
+  </tr>
+  <tr>
+    <td>FM:</td>
+    <td>Yes; analog capable.</td>
+  </tr>
+  <tr>
+    <td>Analog Bandwidth:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Links:</td>
+    <td>Full-time to <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=15101">146.78000 (K7UVA) at Orem, Lake Mountain, UT</a>.<br>Full-time to <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=16449">224.56000 (K7UVA) at Lehi, North Lake Mountain, UT</a>.<br></td>
+  </tr>
+  <tr>
+    <td>EchoLink:</td>
+    <td><a href="https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=762028&type=search">762028</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node Offline</td>
+  </tr>
+  <tr>
+    <td>Nets:</td>
+    <td>Ladies' Net Tue 1900<br>Youth Net Thu 1830<br>New Ham Net Thu 1900<br>Family History Net Sat 20:00</td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td><a href="http://uvarc.club/">http://uvarc.club</a></td>
+  </tr>
+  <tr>
+    <td>Coordination:</td>
+    <td><a href="http://utahvhfs.org/">UVHFS</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>]]></description>
 				<styleUrl>#02</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<Point>
-					<coordinates>-111.92814,40.261488,0</coordinates>
+					<coordinates>-111.9280014477538,40.26188896389851,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Orem, Lake Mountain, Utah, 146.78</name>
 				<address>Lake Mountain UTCO</address>
-				<description>Downlink:	146.78000
-Uplink:	146.18000
-Offset:	-0.600 MHz
-Uplink Tone:	100.0
-County:	Utah
-Grid:	DN40AG
-Call:	K7UVA
-Use:	OPEN
-Op Status:	ON-AIR On-Air
-Coverage:	Utah County, Salt Lake County
-Sponsor:	UVARC (Utah Valley Amateur Radio Club)
-Affiliate:	UVARC (Utah Valley Amateur Radio Club)
-FM:	Yes; analog capable.
-Analog Bandwidth:	
-Links:	Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT.
-Full-time to 224.56000 (K7UVA) at Lehi, North Lake Mountain, UT.
-EchoLink:	762028
-Node Offline
-Nets:	Ladies Net: Tue 19:00 Youth Net: Thu 18:30 New Ham Net: Thu 19:00 Family History Net: Sat 20:00
-Web links:	http://uvarc.club/
-Coordination:	UVHFS
-</description>
+				<description><![CDATA[<a href="https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=15101">https://www.repeaterbook.com/repeaters/details.php?state_id=49&ID=15101</a>
+<table border=1>
+<tbody>
+  <tr>
+    <td>Downlink:</td>
+    <td>146.78000</td>
+  </tr>
+  <tr>
+    <td>Uplink:</td>
+    <td>146.18000</td>
+  </tr>
+  <tr>
+    <td>Offset:</td>
+    <td>-0.600 MHz</td>
+  </tr>
+  <tr>
+    <td>Uplink Tone:</td>
+    <td>100.0</td>
+  </tr>
+  <tr>
+    <td>County:</td>
+    <td>Utah</td>
+  </tr>
+  <tr>
+    <td>Grid:</td>
+    <td>DN40AG</td>
+  </tr>
+  <tr>
+    <td>Call:</td>
+    <td>K7UVA</td>
+  </tr>
+  <tr>
+    <td>Use:</td>
+    <td>OPEN</td>
+  </tr>
+  <tr>
+    <td>Op Status:</td>
+    <td># On-Air</td>
+  </tr>
+  <tr>
+    <td>Coverage:</td>
+    <td>Utah County, Salt Lake County</td>
+  </tr>
+  <tr>
+    <td>Sponsor:</td>
+    <td>UVARC (Utah Valley Amateur Radio Club)</td>
+  </tr>
+  <tr>
+    <td>Affiliate:</td>
+    <td>UVARC (Utah Valley Amateur Radio Club)</td>
+  </tr>
+  <tr>
+    <td>FM:</td>
+    <td>Yes; analog capable.</td>
+  </tr>
+  <tr>
+    <td>Analog Bandwidth:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Links:</td>
+    <td>Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT.<br>Full-time to 224.56000 (K7UVA) at Lehi, North Lake Mountain, UT.<br></td>
+  </tr>
+  <tr>
+    <td>EchoLink:</td>
+    <td>762028</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node Offline</td>
+  </tr>
+  <tr>
+    <td>Nets:</td>
+    <td>Ladies Net: Tue 19:00 Youth Net: Thu 18:30 New Ham Net: Thu 19:00 Family History Net: Sat 20:00</td>
+  </tr>
+  <tr>
+    <td>Web links:</td>
+    <td>http://uvarc.club/</td>
+  </tr>
+  <tr>
+    <td>Coordination:</td>
+    <td>UVHFS</td>
+  </tr>
+</tbody>
+</table>]]></description>
 				<styleUrl>#05</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<Point>
-					<coordinates>-111.92814,40.261488,0</coordinates>
+					<coordinates>-111.9286032389588,40.26187313431075,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
