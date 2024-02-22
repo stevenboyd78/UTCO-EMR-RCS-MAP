@@ -3931,21 +3931,6 @@ Requirements for access:
 				<tilt>0</tilt>
 				<range>30000</range>
 			</LookAt>
-			<Schema name="Counties" id="Counties">
-				<SimpleField type="int" name="OBJECTID"></SimpleField>
-				<SimpleField type="string" name="COUNTYNBR"></SimpleField>
-				<SimpleField type="float" name="ENTITYNBR"></SimpleField>
-				<SimpleField type="float" name="ENTITYYR"></SimpleField>
-				<SimpleField type="float" name="FIPS"></SimpleField>
-				<SimpleField type="string" name="STATEPLANE"></SimpleField>
-				<SimpleField type="int" name="POP_LASTCENSUS"></SimpleField>
-				<SimpleField type="int" name="POP_CURRESTIMATE"></SimpleField>
-				<SimpleField type="string" name="GlobalID"></SimpleField>
-				<SimpleField type="string" name="FIPS_STR"></SimpleField>
-				<SimpleField type="int" name="COLOR4"></SimpleField>
-				<SimpleField type="float" name="SHAPE_Length"></SimpleField>
-				<SimpleField type="float" name="SHAPE_Area"></SimpleField>
-			</Schema>
 			<Style id="style">
 				<LineStyle>
 					<color>ffff0000</color>
@@ -3979,21 +3964,6 @@ Requirements for access:
 				<open>1</open>
 				<styleUrl>#stylemap_id1</styleUrl>
 				<ExtendedData>
-					<SchemaData schemaUrl="#Counties">
-						<SimpleData name="OBJECTID">29</SimpleData>
-						<SimpleData name="COUNTYNBR">25</SimpleData>
-						<SimpleData name="ENTITYNBR">2010251010</SimpleData>
-						<SimpleData name="ENTITYYR">2010</SimpleData>
-						<SimpleData name="FIPS">49</SimpleData>
-						<SimpleData name="STATEPLANE">Central</SimpleData>
-						<SimpleData name="POP_LASTCENSUS">659399</SimpleData>
-						<SimpleData name="POP_CURRESTIMATE">702434</SimpleData>
-						<SimpleData name="GlobalID">{8DF99710-DCB1-4C52-8EAD-E9555C83618F}</SimpleData>
-						<SimpleData name="FIPS_STR">49049</SimpleData>
-						<SimpleData name="COLOR4">3</SimpleData>
-						<SimpleData name="SHAPE_Length">5.0738044948275</SimpleData>
-						<SimpleData name="SHAPE_Area">0.586226779732739</SimpleData>
-					</SchemaData>
 				</ExtendedData>
 				<MultiGeometry>
 					<Polygon>
